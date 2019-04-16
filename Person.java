@@ -1,12 +1,8 @@
 package transactionCheck;
 
-import java.io.Serializable;
-
 public class Person
 
 {
-
-	
 	    private String name;
 	    private String accountnumber;
 	    private String password;

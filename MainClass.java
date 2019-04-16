@@ -6,12 +6,13 @@ import java.net.Socket;
 
 public class MainClass {
 
-	    private static int port = 8080;
+	    private static int port = 10000;
+		private static ServerSocket server;
 
 	    public static void main(String[] args) {
 
 	        try {
-	            ServerSocket server = new ServerSocket(port);
+	            server = new ServerSocket(port);
 
 	            System.out.println("Server Started.");
 
